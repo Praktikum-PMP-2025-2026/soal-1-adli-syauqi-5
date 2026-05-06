@@ -136,12 +136,12 @@ int main() {
 
     // sum = 3 + 8 + 10 = 21 jam
 
-    printf("ORDER ");
+    printf("ORDER");
     for(int i = 0; i < input; i++){
         waktu_tunggu += temp.waktu;
         sum += waktu_tunggu;
         temp = dequeue(q);
-        printf("%s ", temp.id);
+        printf(" %s", temp.id);
         
     }
 
